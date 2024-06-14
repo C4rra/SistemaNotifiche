@@ -5,8 +5,8 @@ abstract class Notifica{
         this.destinatario = destinatario;
         this.messaggio = messaggio;
     }
-    void invia(){
-    }
+    abstract void invia();
+    
 
 
 }
